@@ -69,7 +69,7 @@ Both charts are highly customizable and user-friendly, allowing users to interac
 ## Glimpses of Echarts 🙈 :
  <table>
    <tr>
-    <td><img src="https://user-images.githubusercontent.com/91532881/175955122-200a6ccb-54a5-4f39-9bc2-cd3ba3a4d102.jpeg" alt="home" /></td>
+    <td><img src="./public/image1.png" alt="home" /></td>
     <td><img src="https://user-images.githubusercontent.com/91532881/175955109-b51e3e81-4cd8-4f00-a8cd-873c82882a15.png" alt="coupons" /></td>
   </tr>
 </table>
