@@ -168,8 +168,8 @@ yarn start
     <a href="https://saurabhsanjay.github.io/saurabh-ubale/">
         <img align="center" src="https://img.shields.io/badge/Portfolio-18A303?style=for-the-badge&logo=ionic&logoColor=white" alt="https://saurabhsanjay.github.io/saurabh-ubale/" />
     </a>
-    <a href="https://saurabhsanjay.github.io/saurabh-ubale/">
-        <img align="center" src="https://img.shields.io/badge/Portfolio-18A303?style=for-the-badge&logo=ionic&logoColor=white" alt="https://saurabhsanjay.github.io/saurabh-ubale/" />
+    <a href="mailto:saurabhubale371@gmail.com">
+        <img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="saurabhubale371@gmail.com" />
     </a>
     
 </p>
