@@ -135,9 +135,9 @@ npm install
 
 
 To run the application got to the manufac-assignment folder and run the following command:
-
-```
 yarn start
+```
+
 
 
 
