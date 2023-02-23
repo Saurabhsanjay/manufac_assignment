@@ -67,7 +67,7 @@ const BarChart: React.FC<Props> = ({ data }) => {
       data: ["Class 1", "Class 2", "Class 3"],
     },
     axisLabel: {
-      fontSize: 12, // adjust font size
+      fontSize: 12, 
       lineHeight: 16,
       interval: 0,
     },
