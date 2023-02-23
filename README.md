@@ -138,7 +138,7 @@ To run the application got to the manufac-assignment folder and run the followin
 
 ```
 yarn start
-```
+
 
 
 
