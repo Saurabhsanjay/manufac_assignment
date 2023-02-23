@@ -36,7 +36,7 @@
 <p align="center">
   <br />&#10023;
   <a href="#">View Demo</a> &#10023;
-  <a href="https://github.com/Saurabhsanjay/MyglammClone/issues">Report Bug</a> &#10023;
+  <a href="https://github.com/Saurabhsanjay/manufac_assignment/issues">Report Bug</a> &#10023;
   <a href="#Getting-Started">Getting Started</a> &#10023; 
   <a href="#Install">Installing</a> &#10023;
   <a href="#Contact">Author</a> &#10023;
@@ -66,8 +66,13 @@ Both charts are highly customizable and user-friendly, allowing users to interac
 
 <br />
 
-
- 
+## Glimpses of Echarts 🙈 :
+ <table>
+   <tr>
+    <td><img src="https://user-images.githubusercontent.com/91532881/175955122-200a6ccb-54a5-4f39-9bc2-cd3ba3a4d102.jpeg" alt="home" /></td>
+    <td><img src="https://user-images.githubusercontent.com/91532881/175955109-b51e3e81-4cd8-4f00-a8cd-873c82882a15.png" alt="coupons" /></td>
+  </tr>
+</table>
 
 
 
@@ -90,19 +95,19 @@ This project was built using  React, HTML, CSS, JavaScript and ECHARTS for REACT
 ### Setup
 
 
-The project repository can be found in [GitHub link](https://github.com/Saurabhsanjay/MyglammClone) or just clone the project using this command.
+The project repository can be found in [GitHub link](https://github.com/Saurabhsanjay/manufac_assignment) or just clone the project using this command.
 
 
 ```
 Using HTTPS
 
-# git clone https://github.com/Saurabhsanjay/MyglammClone
+# git clone https://github.com/Saurabhsanjay/manufac_assignment
 ```
 
 
 ## Install
 
-Install NPM
+Install YARN
 
 Check that you have node and yarn installed
 
@@ -113,11 +118,11 @@ To check if you have Node.js installed, run this command in your terminal:
 node -v
 ```
 
-To confirm that you have npm installed you can run this command in your terminal:
+To confirm that you have yarn installed you can run this command in your terminal:
 
 
 ```
-npm -v
+yarn -v
 ```
 
 
@@ -127,7 +132,7 @@ To install all the dependences of the project, run the following command:
 
 
 ```
-cd client
+
 
 npm install
 
@@ -135,12 +140,9 @@ npm install
 
 
 To run the application got to the manufac-assignment folder and run the following command:
+
 yarn start
 ```
-
-
-
-
 
 
 
@@ -163,4 +165,4 @@ yarn start
 ## Show your support
 
 Give a ⭐️ if you like this project!
-# manufac_assignment
+
