@@ -31,7 +31,7 @@
 
 
 
-<h3 align="center"><a href="https://manufac-assignment-eight.vercel.app/"><strong>Want to see live preview »</strong></a></h3>
+<h3 align="center"><a target="_blank" href="https://manufac-assignment-eight.vercel.app/"><strong>Want to see live preview »</strong></a></h3>
 
 <p align="center">
   <br />&#10023;
@@ -47,8 +47,6 @@ ECharts is a powerful data-visualization library that can be used to create a va
 Both charts are highly customizable and user-friendly, allowing users to interact with the data and gain valuable insights. However, it is important to note that this project is solely for educational purposes and the Wine data should not be used for commercial purposes without proper authorization.
 
 
-
-![cover](<img src="./public/image1.png" alt="home" />)
 
 <br />
 
@@ -160,7 +158,7 @@ yarn start
 
 
 
-
+## Contact
 
 © 2022 Saurabh Ubale
 
