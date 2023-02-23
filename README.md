@@ -13,7 +13,7 @@
 
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascript" />
+  <img src="https://img.shields.io/badge/TypeScript-323330?style=for-the-badge&logo=typescript&logoColor=blue" alt="typescript" />
    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs" />
    <img src="https://img.shields.io/badge/-ECHARTS-red?style=for-the-badge&logo=react&logoColor=61DAFB" alt="echarts" />
    <img src="https://img.shields.io/badge/-VERCEL-black?style=for-the-badge&logo=vercel&logoColor=61DAFB" alt="echarts" />
@@ -84,7 +84,7 @@ Both charts are highly customizable and user-friendly, allowing users to interac
 
 ## Getting Started
 
-This project was built using  React, HTML, CSS, JavaScript and ECHARTS for REACT . It is an Chart Data-Visualization web application and for running on your local environment you should follow these guidelines.
+This project was built using  React, HTML, CSS, TypeScript and ECHARTS for REACT . It is an Chart Data-Visualization web application and for running on your local environment you should follow these guidelines.
 
 
 ### Prerequisites
