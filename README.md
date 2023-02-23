@@ -70,7 +70,7 @@ Both charts are highly customizable and user-friendly, allowing users to interac
  <table>
    <tr>
     <td><img src="./public/image1.png" alt="home" /></td>
-    <td><img src="https://user-images.githubusercontent.com/91532881/175955109-b51e3e81-4cd8-4f00-a8cd-873c82882a15.png" alt="coupons" /></td>
+    
   </tr>
 </table>
 
