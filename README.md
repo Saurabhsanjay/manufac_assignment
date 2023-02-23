@@ -128,14 +128,12 @@ yarn -v
 ```
 
 
-
-
 To install all the dependences of the project, run the following command:
 
 
 ```
 
-npm install
+yarn install
 
 
 To run the application got to the manufac-assignment folder and run the following command:
@@ -161,9 +159,6 @@ yarn start
 <p align="left">
     <a href="https://linkedin.com/in/saurabh-ubale-035a18234/">
         <img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="https://linkedin.com/in/saurabh-ubale-035a18234/" />
-    </a>
-    <a title="saurabhubale371@gmail.com" href="mailto:saurabhubale371@gmail.com>
-        <img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="saurabhubale371@gmail.com" />
     </a>
     <a href="https://saurabhsanjay.github.io/saurabh-ubale/">
         <img align="center" src="https://img.shields.io/badge/Portfolio-18A303?style=for-the-badge&logo=ionic&logoColor=white" alt="https://saurabhsanjay.github.io/saurabh-ubale/" />
