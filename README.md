@@ -48,7 +48,7 @@ Both charts are highly customizable and user-friendly, allowing users to interac
 
 
 
-![cover](https://i.im.ge/2022/12/19/d41HB9.mg.jpg)
+![cover](<img src="./public/image1.png" alt="home" />)
 
 <br />
 
@@ -70,6 +70,10 @@ Both charts are highly customizable and user-friendly, allowing users to interac
  <table>
    <tr>
     <td><img src="./public/image1.png" alt="home" /></td>
+    
+  </tr>
+   <tr>
+    <td><img src="./public/image2.png" alt="home" /></td>
     
   </tr>
 </table>
