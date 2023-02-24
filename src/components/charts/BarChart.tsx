@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import ReactECharts from "echarts-for-react";
 
-
 // for the WineDataSet type
 type WineDataSet = {
   Alcohol: number;
@@ -28,13 +27,26 @@ type Props = {
 const BarChart: React.FC<Props> = ({ data }) => {
   const [isLoading, setIsLoading] = useState(true);
 
+  //for the number of alcohol classes
+  const classes = [...new Set(data.map((el) => el.Alcohol))];
+  const lengthOfClasses = classes.length;
+  console.log(lengthOfClasses);
 
-//  a function to calculate the average of a property in the WineDataSet
+  // for the x-axis data
+  const XaxisData = classes.map((el) => `Class ${el}`);
+
+  //  a function to calculate the average of a property in the WineDataSet
   const handleAverage = (props: keyof WineDataSet, data: WineDataSet[]) => {
     const sum = data.reduce((acc, el) => acc + +el[props], 0);
     return (sum / data.length).toFixed(3);
   };
-
+  // for generate the series data
+  const seriesData = classes.map((ele) =>
+    handleAverage(
+      "Malic Acid",
+      data.filter((el) => el.Alcohol === ele)
+    )
+  );
 
   // for the ECharts option
   const option = {
@@ -64,10 +76,10 @@ const BarChart: React.FC<Props> = ({ data }) => {
       nameLocation: "middle",
       nameGap: 30,
       name: "Alcohol",
-      data: ["Class 1", "Class 2", "Class 3"],
+      data: XaxisData,
     },
     axisLabel: {
-      fontSize: 12, 
+      fontSize: 12,
       lineHeight: 16,
       interval: 0,
     },
@@ -82,26 +94,13 @@ const BarChart: React.FC<Props> = ({ data }) => {
         name: "Malic Acid",
         type: "bar",
         smooth: true,
-        data: [
-          handleAverage(
-            "Malic Acid",
-            data.filter((el) => el.Alcohol === 1)
-          ),
-          handleAverage(
-            "Malic Acid",
-            data.filter((el) => el.Alcohol === 2)
-          ),
-          handleAverage(
-            "Malic Acid",
-            data.filter((el) => el.Alcohol === 3)
-          ),
-        ],
+        data: seriesData,
       },
     ],
   };
 
   return (
-   // Render the  chart using the option and state
+    // Render the  chart using the option and state
     <ReactECharts
       option={option}
       showLoading={isLoading}
